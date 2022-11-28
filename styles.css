@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 100px;
+  padding: 20px;
+}
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 100px;
+}
+.logo img {
+  width: 100%;
+}
+.search {
+  font-size: 34px;
+  position: absolute;
+  top: 20%;
+  left: 4%;
+}
+.inputDiv {
+  position: relative;
+}
+.inputDiv input {
+  width: 500px;
+  height: 60px;
+  border-radius: 40px;
+  border: 1px solid #333;
+  padding: 0.4rem 2.4rem 0.4rem 4.4rem;
+  font-size: 20px;
+}
+.categories a {
+  text-decoration: none;
+  color: #333;
+}
+.navbtn-log {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #333;
+}
+.navbtn-sign {
+  background-color: #333;
+  padding: 10px 20px;
+  border: 1px solid #111;
+  color: #fff;
+}
+.navbtn-icon {
+  padding: 8px;
+  border: 1px solid #111;
+}
+.frontPage {
+  background-image: url("https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e.jpg");
+  width: 100vw;
+  height: 60vh;
+  padding: 30px;
+}
+.frontText {
+  background-color: #f1f1f1;
+  padding: 15px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.frontText h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.frontText p {
+  font-size: 20px;
+}
+.secondPageContainer {
+  padding: 50px 20px;
+}
+.secondPageTitle h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.secondPageTitle p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.languageList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.languageList h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.courseList {
+  margin: 50px 20px;
+  border: 1px solid #333;
+}
+.courseListTitle {
+  padding: 40px 30px;
+}
+.courseListTitle h2 {
+  margin-bottom: 20px;
+}
+.courseListTitle p {
+  font-size: 20px;
+}
+.courseTitleBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+.courseListMainCover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.courseTitle {
+  font-size: 16px;
+}
+.course {
+  margin: 15px;
+}
+.course img {
+  width: 100%;
+}
+.footer {
+  height: 60vh;
+  padding: 20px 40px;
+  background-color: #111;
+  color: #fff;
+}
+.footerBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerBody ul li {
+  list-style: none;
+  margin: 10px 1px;
+}
+.english button {
+  border: 1px solid #fff;
+  padding: 20px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.english p {
+  color: white;
+  margin-left: 10px;
+}
